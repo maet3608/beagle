@@ -1,0 +1,43 @@
+- setting tab
+  - language
+  - default zoom factor
+  - default input directory (<- scanned images)
+  - delete disabled
+  - save/load settings
+  
+
+- wait dialog when printing (or searching ,adding many documents)
+
+
+- import, export, backup of the database
+
+- Hint for keywords field does not work
+
+- use document name as list entries if no keywords are set, otherwise use keywords
+
+
+- clean up code
+  (do internationalization at that step)
+
+- pics into resources <= jar file
+
+
+- internationalization (German, English)
+  => http://download.oracle.com/javase/tutorial/i18n/index.html
+
+
+- help tab => HTML help text
+
+- create executable/installer
+
+- highlighting of found text in search
+  http://www.exampledepot.com/egs/javax.swing.text/style_HiliteWords.html
+  http://download.oracle.com/javase/tutorial/uiswing/examples/components/TextFieldDemoProject/src/components/TextFieldDemo.java
+  http://forums.devx.com/archive/index.php/t-142859.html
+
+
+- make Record immutable
+
+- OLE to emmbed word documents
+
+

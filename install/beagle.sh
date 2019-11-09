@@ -1,0 +1,1 @@
+./java -mx600M -cp "beagle.jar" -splash:pics/splash.gif quuux.beagle.Beagle

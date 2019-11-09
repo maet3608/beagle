@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/content.css">
+    <link type="text/css" rel="stylesheet" href="css/layout.css">
+    <link type="text/css" rel="stylesheet" href="css/menu.css">
+    <link type="text/css" rel="stylesheet" href="css/header.css">
+
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Stefan Maetschke">
+    <meta name="copyright" content="Stefan Maetschke">
+
+    <meta name="language" content="en">
+    <meta name="description" content="tutorial">
+    <meta name="keywords" content="tutorial infinity zoomable presentation software">
+    <meta name="title" content="infinity">
+  <title>Tutorial</title>
+
+  </head>
+
+<body>
+
+
+
+<!-- ================================================================================ -->
+
+
+<!-- ********************************* header *********************************   -->
+<div id="header">
+
+
+<div id="tabsB">
+  <ul>
+    <li><a href="index.html" target="menu"><span>home</span></a></li>
+    <li><a href="tutorial.html" target="menu"><span>tutorial</span></a></li>
+    <li><a href="download.html" target="menu"><span>download</span></a></li>
+  </ul>
+</div>
+
+</div> <!-- end of header -->
+
+
+
+<!-- ********************************* menubar *********************************   -->
+<div id="menubar">
+<div id="menu">
+<ul>
+  <li><a href="#intro">intro</a></li>  
+  <li><a href="#video">about</a></li>     
+  <li><a href="#elements">elements</a></li>  
+  <li><a href="#settings">settings</a></li>  
+  <li><a href="#about">about</a></li>       
+</ul>
+</div> <!-- end of menu -->
+</div> <!-- end of menubar -->
+
+
+
+<!-- ********************************* sidebar *********************************   -->
+<div id="sidebar">
+    <!-- content of sidebar if any -->
+</div> <!-- end of sidebar -->
+
+
+
+
+<!-- ********************************* content *********************************   -->
+<div id="content">
+
+
+<h1><a name="intro">introduction</a></h1>
+
+<p>
+<b>Beagle</b> is a simple document management software originally designed to annotate and store scanned newspaper articles but is also useful to manage pictures and other files. Files that are loaded into the software can be annotated with free text and are saved in a database. <b>Beagle</b> has a powerful search mechanism that allows the retrieval of stored documents based on their annotation and file name. Retrieved documents are sorted due to the similarity of their annotation to the entered search terms and are displayed in a document view.
+</p>
+
+
+<!-- ================================================================================ -->
+<h1><a name="video">video</a></h1>
+<p>
+The following short video clip shows how to use <b>Beagle</b>. The video requires JavaScript to be enabled and a recent version of <a href="http://www.adobe.com/go/getflashplayer">Adobe Flash Player</a>. 
+</p>
+
+<div id="media">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="498" id="csSWF">
+    <param name="movie" value="movies/beagle/beagle_controller.swf" />
+    <param name="quality" value="best" />
+    <param name="bgcolor" value="#1a1a1a" />
+    <param name="allowfullscreen" value="true" />
+    <param name="scale" value="showall" />
+    <param name="allowscriptaccess" value="always" />
+    <param name="flashvars" value="autostart=false&thumb=movies/beagle/FirstFrame.png&thumbscale=45&color=0x000000,0x000000" />
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="movies/beagle/beagle_controller.swf" width="640" height="498">
+      <param name="quality" value="best" />
+      <param name="bgcolor" value="#1a1a1a" />
+      <param name="allowfullscreen" value="true" />
+      <param name="scale" value="showall" />
+      <param name="allowscriptaccess" value="always" />
+      <param name="flashvars" value="autostart=false&thumb=movies/beagle/FirstFrame.png&thumbscale=45&color=0x000000,0x000000" />
+    <!--<![endif]-->
+      <div id="noUpdate">
+        <p>The Camtasia Studio video content presented here requires JavaScript to be enabled and the latest version of the Adobe Flash Player. If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Adobe Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>. </p>
+      </div>
+    <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div>
+
+<!-- ================================================================================ -->
+
+<h1><a name="elements">elements</a></h1>
+
+<p>
+This section explains the elements of the user interface.
+</p>
+
+<a href="./pic/elements.png"><img src="./pic/elements.png" /></a>
+
+<ul>
+  <li><b>function tabs</b>: The software has three main function pages that are selected via the function tabs.</li>
+  <ul>
+    <li><b>Search & Edit</b>: The search & edit page manages the documents.</li>
+    <li><b>Settings</b>: Basic settings such as language, tool tips and other are handled on this page.</li>
+    <li><b>About</b> The about page displays version and copyright information.</li>        
+  </ul>
+  <li><b>search bar</b>: To find documents search terms are entered in the search field and the search button starts the search. </li>
+  <li><b>search results</b>: The documents found during a search are displayed in the search results field and are ranked according to the goodness of the match.</li>
+  <li><b>document information</b>: The document number the original file path are displayed in the document information bar.</li>
+  <li><b>annotation field</b>: To edit or extend the annotation of a document enter text in the annotation field.</li>
+  <li><b>document view</b>: Documents that are pictures (BMP, PNG, GIF, JPEG) are displayed in the document view. Other file types are shown as icons. Clicking on a displayed documents opens the registered application for this file type, e.g. a PDF viewer if the document is a PDF file.</li>
+  <li><b>document zoom</b>: Picture documents can be enlarged with the zoom slider.</li>
+  <li><b>functions bar</b>: The function bar contains the basic document functions.</li>
+  <ul>
+    <li><b>Add</b>: To add documents to the database press this button. It opens a file selector dialog and copies all selected files into the database.</li>
+    <li><b>Open</b>: The open button starts the application registered for the file type of the currently displayed document and loads the document. Documents can then be edited within their native application.</li>
+    <li><b>Print</b>: The print button sends the currently displayed document to the printer.</li>   
+    <li><b>Delete</b>: To remove a document from the database press this button. The button might be disabled (see Settings page)</li>      
+  </ul>
+
+</ul>
+
+
+<!-- ================================================================================ -->
+
+<h1><a name="settings">settings</a></h1>
+
+<p>The settings page contains switches for the basic settings.</p>
+
+<a href="./pic/settings.png"><img src="./pic/settings.png" /></a>
+
+<ul>
+  <li><b>Show tool tips</b>: Toggle the display of tool tips.</li>
+  <li><b>Enable delete</b>: Enable or disable delete button on Search & Edit page</li>
+  <li><b>Ask before delete</b>: Toggle confirmation dialog when deleting documents.</li>
+  <li><b>Language</b>: Choose the language of the user interface. This setting becomes active only after a restart.</li>    
+</ul>
+
+
+<!-- ================================================================================ -->
+
+<h1><a name="about">about</a></h1>
+
+<p>The about page shows version and copyright information.</p>
+
+<a href="./pic/about.png"><img src="./pic/about.png" /></a>
+
+
+
+
+
+
+<!-- ================================================================================ -->
+</body>
+</html>
+<!-- ================================================================================ -->
+

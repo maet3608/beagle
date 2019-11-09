@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+#menu {
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#menu li a {
+  text-decoration: none;
+}
+#menu li a:link {
+  color:#666;
+}
+#menu li a:visited {
+  color:#666;
+}
+#menu li a:hover {
+  color:#70A1EB;
+  font-weight: bold;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+

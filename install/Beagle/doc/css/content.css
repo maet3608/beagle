@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+body {
+  font: normal 14px/1.5em arial;  
+  color:#666666;
+  text-align: justify;
+  line-height: 1.5;
+}
+h1, h2, h3, h4 {
+  /*color:#70A1EB; */
+  /*color:#2C5AA0;  */
+  color:#666;
+}
+h1 {
+  padding-top: 20px;
+}
+h2, h3, h4 {
+  padding-top: 15px;
+}
+h3.faq {
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+hr {
+  color:#A9A9A9;
+}
+p.center { 
+  text-align: center; 
+}
+p.imagelabel { 
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 90%; 
+}
+ul {
+  margin-left: 15px;
+  padding: 0;
+}
+
+
+a:link {
+  color:#3771C8;
+}	
+a:visited {
+  color:#70A1EB;
+}
+a:hover {
+  color:#70A1EB;
+}
+table {
+  width: 100%;
+  line-height: 100%;
+  border-width: 1px;
+  border-style: none;
+  padding: 1px;
+}
+td { 
+  border-color: #B0C4DE; 
+  background-color: #F5F5F5;
+  border-style: solid; 
+  padding: 3px 9px 3px 9px;
+}
+th { 
+  background-color: #B0C4DE;
+  border-color: #B0C4DE; 
+  border-style: solid; 
+  padding: 3px 9px 3px 9px;     
+}
